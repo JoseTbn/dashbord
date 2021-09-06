@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import Sidebar from './Components/Sidebar/Sidebar';
+
+
+import React from 'react'
+
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
