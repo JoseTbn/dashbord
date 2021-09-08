@@ -3,9 +3,9 @@ import './App.css';
 import DasbordEmployee from './Pages/DashbordEmployee/DasbordEmployee';
 import DasbordFinance from './Pages/Dashbordfinance/DasbordFinance';
 import { BrowserRouter as Router, Route , Routes } from 'react-router-dom'
-
 import Sidebar from './Components/Sidebar/Sidebar';
 import { Switch } from 'react-router';
+import { DashboardContextProvider } from './Context/DashboardContext';
 
 
 
@@ -16,6 +16,7 @@ import { Switch } from 'react-router';
 export default function App() {
   return (
     <>
+    <DashboardContextProvider>
     <Router>
 <Sidebar/>
 
@@ -33,7 +34,8 @@ export default function App() {
 
 
 
-    </Router>
+    </Router> 
+    </DashboardContextProvider>
     </>
   );
 }
