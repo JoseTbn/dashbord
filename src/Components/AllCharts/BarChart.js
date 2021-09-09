@@ -5,7 +5,7 @@ import { DashboardContext } from '../../Context/DashboardContext';
 
 export default function BarChart(props) {
    
-
+  
 
    const data = {
     labels: ['Jan/Fev', 'Mar/Avr', 'Mai/Ju', 'Jui/Aou', 'Sept/Oct', 'Nov/Dec'],
@@ -61,7 +61,7 @@ export default function BarChart(props) {
         
          <>
       <div className='header'>
-        <h1 className='title'>Vertical Bar Chart</h1>
+        <h1 className='title'>Graphique</h1>
         <div className='links'>
           
         </div>

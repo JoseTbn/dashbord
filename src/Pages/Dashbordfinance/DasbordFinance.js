@@ -4,6 +4,7 @@ import VerticalBar  from "../../Components/AllCharts/BarChart";
 import PieChart from "../../Components/AllCharts/PieChart";
 import "./DasbordFinance.css";
 import { DashboardContext } from '../../Context/DashboardContext';
+import DoughnutChart from "../../Components/AllCharts/DoughnutChart";
 
 
 export default function DasbordFinance() {
@@ -29,7 +30,8 @@ export default function DasbordFinance() {
 
 <BarChart  data={dataChart.chart1} name={"Chiffres Bimestiels"}/>
 <BarChart  data={dataChart.chart4} name={"Capital Marketing"}/>
-<PieChart/>
+
+
 
 </div>
 
