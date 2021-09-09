@@ -9,14 +9,20 @@ export default function LineChart(props) {
     
 
 const data = {
-  labels: ['1', '2', '3', '4', '5', '6'],
+  labels: [props.data[0],
+  props.data[1],
+  props.data[2],
+  props.data[3],
+  props.data[4],
+  props.data[5],
+],
   datasets: [
     {
-      label: '# of Votes',
-      data: [12, 19, 3, 5, 2, 3],
-      fill: false,
+      label: props.name,
+      data: props.data,
+      fill: true,
       backgroundColor: 'rgb(255, 99, 132)',
-      borderColor: 'rgba(255, 99, 132, 0.2)',
+      borderColor: 'rgba(255, 99, 132, 1)',
     },
   ],
 };
@@ -26,11 +32,19 @@ const options = {
     yAxes: [
       {
         ticks: {
-          beginAtZero: true,
+          beginAtZero: true, 
+          min: 0,
+          max: 20,
         },
       },
     ],
-  },
+  },  plugins: { legend: 
+    { display:true,
+    labels:{
+        boxWidth:0,
+    }
+}
+}
 };
     
     

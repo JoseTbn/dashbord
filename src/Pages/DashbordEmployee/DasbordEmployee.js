@@ -14,10 +14,18 @@ export default function DashboardEmployees() {
       <form>
         <label htmlFor="year">Choisissez une date</label>
         <select onChange={changeYear} id="year">
-          <option selected={yearData === "2020" && "selected"} value="2020">2020</option>
-          <option selected={yearData === "2019" && "selected"} value="2019">2019</option>
-          <option selected={yearData === "2018" && "selected"} value="2018">2018</option>
-          <option selected={yearData === "2017" && "selected"} value="2017">2017</option>
+        <option selected={yearData === "2021" && "selected"} value="2021">
+            2021
+          </option>
+          <option selected={yearData === "2020" && "selected"} value="2020">
+            2020
+          </option>
+          <option selected={yearData === "2019" && "selected"} value="2019">
+            2019
+          </option>
+          <option selected={yearData === "2018" && "selected"} value="2018">
+            2018
+          </option>
         </select>
       </form>
 
