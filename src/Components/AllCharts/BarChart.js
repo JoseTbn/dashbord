@@ -1,7 +1,5 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import {Bar} from 'react-chartjs-2'
-import allData from '../../Context/allData';
-import { DashboardContext } from '../../Context/DashboardContext';
 
 export default function BarChart(props) {
    
@@ -61,7 +59,8 @@ export default function BarChart(props) {
         
          <>
       <div className='header'>
-        <h1 className='title'>Graphique</h1>
+        <h1 className='title'> </h1>
+
         <div className='links'>
           
         </div>

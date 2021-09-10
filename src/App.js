@@ -4,7 +4,6 @@ import DasbordEmployee from './Pages/DashbordEmployee/DasbordEmployee';
 import DasbordFinance from './Pages/Dashbordfinance/DasbordFinance';
 import { BrowserRouter as Router, Route , Routes } from 'react-router-dom'
 import Sidebar from './Components/Sidebar/Sidebar';
-import { Switch } from 'react-router';
 import { DashboardContextProvider } from './Context/DashboardContext';
 
 

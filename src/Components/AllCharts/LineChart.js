@@ -52,7 +52,7 @@ const options = {
     return (
         <>
         <div className='header'>
-          <h1 className='title'></h1>
+          <h1 className='title'> </h1>
           <div className='links'>
           </div>
         </div>

@@ -1,7 +1,9 @@
 .global-container {
   margin-left: 170px;
   position: absolute;
-  width: calc(100% - 170px);
+  width: calc(90% - 250px);
+  display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 870px) {
   .global-container {
